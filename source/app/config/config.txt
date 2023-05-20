@@ -1,0 +1,32 @@
+#### 	OPEN API ORG 	###################################
+# Example:
+# 	org-0123456789ABCDEFGHIJKLMN
+#       0123456789ABCDEFGHIJKLMN
+###########################################################
+0123456789ABCDEFGHIJKLMN
+
+#### 	OPEN API KEY 	###################################
+# Example:
+# 	sk-0123456789ABCDEFGHIJKLMNOPQRSTUV0123456789ABCDEF
+#      0123456789ABCDEFGHIJKLMNOPQRSTUV0123456789ABCDEF
+###########################################################
+0123456789ABCDEFGHIJKLMNOPQRSTUV0123456789ABCDEF
+
+#### 	MODELS 		#######################################
+# Example:
+# 	model01
+#   model02 ...
+###########################################################
+# babbage
+# davinci
+# text-davinci-003
+# text-davinci-edit-001
+# whisper-1
+
+#### 	CACHING 	#######################################
+# CLEAR CACHING INTERVALS accepts
+# d, h, m, s 	=	Days, Hours, Minutes, Seconds
+# 00:00:00:00   =     00   :  00   : 00   : 00
+###########################################################
+CLEAR_CACHE_MODEL  = 00:00:30:00
+CLEAR_CACHE_PROMPT = 00:01:00:00

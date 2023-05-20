@@ -1,0 +1,36 @@
+### Python ###
+# Template for Python projects
+
+## Derived B.S.
+.DS_Store
+
+## Dump Folder
+_dump/
+
+## Special Files
+*.sublime-build
+
+## Tests
+*-test-[0-9].*
+
+## Stashes
+**/*-{stash-[0-9]}.*
+**/*-{stash-[0-9]}
+
+## Build
+build
+__pycache__
+commands.txt
+test-generator.py
+cache
+
+## Docs
+!CHANGELOG.md
+html-docs
+CHANGECONTROL.md
+build/readme
+docs
+readme.sh
+
+## Config
+config/config.txt

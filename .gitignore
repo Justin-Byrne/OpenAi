@@ -19,18 +19,16 @@ _dump/
 
 ## Build
 build
-__pycache__
+build/readme
 commands.txt
 test-generator.py
 cache
+__pycache__
 
 ## Docs
+docs/*
 !CHANGELOG.md
-html-docs
-CHANGECONTROL.md
-build/readme
-docs
 readme.sh
 
 ## Config
-config/config.txt
+config.txt
